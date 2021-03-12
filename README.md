@@ -156,4 +156,76 @@ int main()
 }
 ```
 ## 第9個程式碼
+```c
+#include <stdio.h>
+int a[5]={0,10,20,30,40};
+void printfAll(){
+for(int i=0;i<5;i++)printf("%d ",a[i]);
+   printf("\n");
+   }
+ int main()
+ {
+
+     printfAll();
+
+     int* p=&a[2];
+     *p=222;
+     printfAll();
+     p=p+2;
+     *p=666;
+     printfAll();
+ }
+ ```
 ## 第10個程式碼
+```c
+#include <stdio.h>
+#include <stdlib.h>
+int a[10];
+int main(){
+int b[10];
+
+int *p=(int*)malloc(sizeof(int)*10);
+
+return 0;
+}
+```
+## 第11個程式碼
+```c
+#include <stdio.h>
+#include <stdlib.h>
+int a[10];
+int main(){
+int b[10];
+
+int *p=(int*)malloc(sizeof(int)*10);
+
+return 0;
+}
+```
+## 第12個程式碼
+```c
+#include <stdio.h>
+int a[5]={0,10,20,30,40};
+void printfAll(){
+for(int i=0;i<5;i++)printf("%d ",a[i]);
+   printf("\n");
+   }
+ int main()
+ {
+
+     printfAll();
+
+     int* p=&a[2];
+     *p=222;
+     printfAll();
+
+     p=p+2;
+     *p=666;
+     printfAll();
+
+     p--;
+     *p=555;
+     printfAll();
+
+ }
+ ```
