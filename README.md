@@ -1,5 +1,5 @@
 # 2020CCE
-##第1個程式碼
+##第一個程式碼
 ```c
 #include <stdio.h>
 int main()
@@ -11,7 +11,7 @@ int main()
 	
 }
 ```
-##第2個程式碼
+##第二個程式碼
 ```c
 #include <stdio.h>
 int main()
@@ -56,7 +56,7 @@ int main()
 	printf("%d\n",b);
 } 
 ```
-##第3個程式碼
+##第三個程式碼
 ```c
 #include <stdio.h>
 int main()
@@ -71,7 +71,7 @@ int main()
 	printf("%d\n",ans);
 }
 ```
-##第4個程式碼
+##第四個程式碼
 ```c
 #include <stdio.h>
 int main()
@@ -85,7 +85,7 @@ int main()
 }
 ```
 
-##第5個程式碼
+##第五個程式碼
 ```c
 #include <stdio.h>
 int main()
@@ -100,7 +100,7 @@ int main()
 	printf("%d %d\n",a/ans,b/ans);
 }
 ```
-##第6個程式碼
+##第六個程式碼
 ```c
 #include <stdio.h>
 int main()
@@ -115,7 +115,7 @@ int main()
 
 }
 ```
-##第7個程式碼
+##第七個程式碼
 ```c
 #include <stdio.h>
 int main()
@@ -132,7 +132,7 @@ int main()
     printf("n1=%d n2=%d n3=%d\n",n1,n2,n3);
 }
 ```
-##第8個程式碼
+##第八個程式碼
 ```c
 #include <stdio.h>
 int main()
@@ -155,5 +155,5 @@ int main()
 
 }
 ```
-##第9個程式碼
+##第個程式碼
 ##第10個程式碼
