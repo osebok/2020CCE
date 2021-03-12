@@ -1,5 +1,5 @@
 # 2020CCE
-##第一個程式碼
+#第一個程式碼
 ```c
 #include <stdio.h>
 int main()
