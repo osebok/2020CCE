@@ -1,5 +1,5 @@
 # 2020CCE
-##第一個程式碼
+##第1個程式碼
 ```c
 #include <stdio.h>
 int main()
@@ -11,7 +11,7 @@ int main()
 	
 }
 ```
-##第二個程式碼
+##第2個程式碼
 ```c
 #include <stdio.h>
 int main()
@@ -56,7 +56,7 @@ int main()
 	printf("%d\n",b);
 } 
 ```
-##第三個程式碼
+##第3個程式碼
 ```c
 #include <stdio.h>
 int main()
@@ -71,7 +71,7 @@ int main()
 	printf("%d\n",ans);
 }
 ```
-##第四個程式碼
+##第4個程式碼
 ```c
 #include <stdio.h>
 int main()
@@ -85,7 +85,7 @@ int main()
 }
 ```
 
-##第五個程式碼
+##第5個程式碼
 ```c
 #include <stdio.h>
 int main()
@@ -100,3 +100,60 @@ int main()
 	printf("%d %d\n",a/ans,b/ans);
 }
 ```
+##第6個程式碼
+```c
+#include <stdio.h>
+int main()
+{
+    int n1=10,n2=20,n3=30;
+    printf("n1=%d n2=%d n3=%d\n",n1,n2,n3);
+
+    int *p=&n1;
+    *p=200;
+    printf("n1=%d n2=%d n3=%d\n",n1,n2,n3);
+
+
+}
+```
+##第7個程式碼
+```c
+#include <stdio.h>
+int main()
+{
+    int n1=10,n2=20,n3=30;
+    printf("n1=%d n2=%d n3=%d\n",n1,n2,n3);
+
+    int *p=&n1;
+    *p=200;
+    printf("n1=%d n2=%d n3=%d\n",n1,n2,n3);
+
+    int *p2=&n3;
+    *p2=300;
+    printf("n1=%d n2=%d n3=%d\n",n1,n2,n3);
+}
+```
+##第8個程式碼
+```c
+#include <stdio.h>
+int main()
+{
+    int n[3]={10,20,30};
+    printf("n[0]=%d n[1]=%d n[2]=%d\n",n[0],n[1],n[2]);
+
+    int *p=&n[0];
+    *p=200;
+    printf("n[0]=%d n[1]=%d n[2]=%d\n",n[0],n[1],n[2]);
+
+    int *p2=&n[2];
+    *p=300;
+    printf("n[0]=%d n[1]=%d n[2]=%d\n",n[0],n[1],n[2]);
+    p2=p;
+    *p2=400;
+    printf("n[0]=%d n[1]=%d n[2]=%d\n",n[0],n[1],n[2]);
+
+    return 0;
+
+}
+```
+##第9個程式碼
+##第10個程式碼
