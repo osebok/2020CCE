@@ -338,9 +338,11 @@ int main()
 	printf("%s\n",line[i]);
 	}
 	}
-    ```
-##第19個程式
-    ```c
+```
+    
+## 第19個程式
+    
+```c
     #include <stdio.h>
 #include <string.h>
 int main()
