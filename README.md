@@ -229,3 +229,196 @@ for(int i=0;i<5;i++)printf("%d ",a[i]);
      printf("p心理小紙條的值是:%d\n",p);
  }
  ```
+## 第13個程式
+ ```c
+ #include <stdio.h>
+struct DATA{
+    int x, y;
+    }a[3] ;
+struct DATA b = {100,200};
+int main()
+{
+    for(int i=0;i<3;i++){
+        printf("a[%d]:%d %d\n", i,a[i].x, a[i].y);
+    }
+    printf("b: %d %d\n",b.x,b.y);
+
+    struct DATA c;
+    printf("c: %d %d 像亂碼\n",c.x, c.y);
+    c = b;
+    printf("c: %d %d\n",c.x,c.y);
+
+}
+```
+## 第14個程式
+```c
+#include <stdio.h>
+struct POINT{
+    float x, y, z;
+    };
+struct POINT point[5]={{0,0,0},{1,0,0},{0,1,0},{0,0,1},{1,1,1}};
+int main()
+{
+    struct POINT * p =&point[0];
+    printf("%.2f %.2f %.2f\n",p->x,p->y,p->z);
+
+    p++;
+    printf("%.2f %.2f %.2f\n",p->x,p->y,p->z);
+    p++;
+    printf("%.2f %.2f %.2f\n",p->x,p->y,p->z);
+}
+```
+## 第15個程式
+```c
+#include <stdio.h>
+struct POINT{
+float x, y;
+};
+int main()
+{
+struct POINT a={4.1,3,2.};
+printf("%f%f\n",a.x,a.y);
+
+return 0;
+}
+```
+## 第16個程式
+```c
+#include <stdio.h>
+struct POINT{
+float x, y;
+};
+int main()
+{
+struct POINT a;
+
+}
+```
+## 第17個程式
+```c
+#include <stdio.h>
+struct POINT{
+float x, y;
+};
+int main()
+{
+struct POINT a={4.1,3,2.};
+printf("%f%f\n",a.x,a.y);
+
+a.x=1;
+a.y=2;
+printf("%f %f\n",a.x,a.y);
+
+return 0;
+}
+```
+## 第18個程式
+```c
+#include <stdio.h>
+#include <string.h>
+char line[100][10];
+int main()
+{
+	int n;
+	scanf("%d",&n);
+	for(int i=0;i<n;i++){
+	scanf("%s",line[i]);
+	}
+	char temp[10];
+	for(int i=0;i<n;i++){
+	for(int j=i+1;j<n;j++){
+	if(strcmp(line[i],line[j])>0){
+	strcpy(temp,line[i]);
+	strcpy(line[i],line[j]);
+	strcpy(line[j],temp);
+	}
+	}
+	}
+	for(int i=0;i<n;i++){
+	printf("%s\n",line[i]);
+	}
+	}
+    ```
+##第19個程式
+    ```c
+    #include <stdio.h>
+#include <string.h>
+int main()
+{
+    char line[10]="majority";
+    char line2[10]="ask";
+    if(strcmp(line,line2)>0){
+            printf("左邊大\n");
+    }else{
+    printf("右邊大\n");
+    }
+
+
+
+
+
+}
+```
+## 第20個程式
+```c
+#include <stdio.h>
+int main()
+{
+printf("請看看值是多少:%d",'\0');
+
+
+
+
+}
+```
+## 第21個程式
+```c
+#include <stdio.h>
+int main()
+{
+    char line[5][10]={"decline","proper","majority","bullet","shop"};
+    for(int i=0;i<5;i++){
+        printf("%s\n",line[i]);
+    }
+
+
+
+
+
+
+
+}
+```
+## 第22個程式
+```c
+#include <stdio.h>
+int main()
+{
+    char line[10]="decline";
+    char line2[10]={'p','r','o','p','e','r','\0'};
+    printf("%s\n",line);
+    printf("%s\n",line2);
+    char line3[]="majority";
+    printf("%s\n",line3);
+    char line4[]={'m','a','j','o','r','i','t','y'};
+    printf("你看看你看看,現在印出來的line4:==%s==\n",line4);
+
+
+
+
+
+
+
+}
+```
+## 第23個程式
+```c
+#include <stdio.h>
+int main()
+{
+    char line[10]="decline";
+    char line2[10]={'p','r','o','p','e','r','\0'};
+    printf("%s\n",line);
+    printf("%s\n",line2);
+    }
+  ```
