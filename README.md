@@ -1,4 +1,4 @@
-# 2020CCE
+# 2020CCE & 2022 CCE 城市設計（2022在下面）
 ## 第一個程式碼
 ```c
 #include <stdio.h>
@@ -589,7 +589,7 @@ int main()
 
 
 
-## 2022/10/11 程式設計
+## 2022 程式設計
 ```c
 #include <stdio.h>
 int main()
