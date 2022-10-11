@@ -589,7 +589,7 @@ int main()
 
 
 
-##2022/10/11 程式設計
+## 2022/10/11 程式設計
 ```c
 #include <stdio.h>
 int main()
